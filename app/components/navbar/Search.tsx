@@ -1,5 +1,7 @@
 "use cluent";
 
+import { BiSearch } from "react-icons/bi";
+
 const Search = () => {
   return (
     <div
@@ -29,7 +31,7 @@ const Search = () => {
         px-6
         "
         >
-          anywhere
+          Anywhere
         </div>
         <div
           className="
@@ -55,6 +57,15 @@ const Search = () => {
         gap-3"
         >
           <div className="hidden sm:block">Add Guests</div>
+          <div
+            className="
+          p-2
+          bg-rose-500
+          rounded-full
+          text-white"
+          >
+            <BiSearch size={18} />
+          </div>
         </div>
       </div>
     </div>
